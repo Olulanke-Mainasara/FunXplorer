@@ -1,0 +1,107 @@
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100dvh;
+  width: 100%;
+  padding: 5rem 0;
+}
+
+main > h1 {
+  font-size: 5rem;
+}
+
+main > div {
+  width: 100%;
+  max-width: 1200px;
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+main > div > div {
+  width: 50%;
+  height: 100%;
+}
+
+#left-child {
+  border-radius: 1rem;
+  position: relative;
+  overflow: hidden;
+}
+
+#left-child > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+#left-child > div {
+  position: absolute;
+  inset: 0;
+  backdrop-filter: brightness(0.25);
+  padding: 1rem;
+  display: flex;
+  gap: 0.6rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#left-child > div > p {
+  max-width: 95%;
+}
+
+#left-child > div > h2 {
+  font-weight: 400;
+  font-size: 2.3rem;
+}
+
+#left-child > div > p {
+  color: rgb(181, 179, 179);
+  font-size: 1.2rem;
+}
+
+#right-child {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+}
+
+#right-child > div {
+  position: relative;
+  border-radius: 1rem;
+  overflow: hidden;
+}
+
+#right-child > div > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.feature-box {
+  position: absolute;
+  inset: 0;
+  backdrop-filter: brightness(0.25);
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  gap: 10px;
+  color: #fff;
+}
+
+.feature-box > h2 {
+  font-weight: 400;
+}
+
+.feature-box > p {
+  color: rgb(181, 179, 179);
+}
