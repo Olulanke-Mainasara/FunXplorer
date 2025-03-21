@@ -3,9 +3,9 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Games - FunXplorer</title>
-    <link rel="stylesheet" href="/styles/shared.css" />
+    <title id="document-title"></title>
     <link rel="stylesheet" href="/styles/general-styling.css" />
+    <link rel="stylesheet" href="/styles/attempt-quiz.css" />
     <script
       src="https://kit.fontawesome.com/aae4243485.js"
       crossorigin="anonymous"
@@ -13,28 +13,12 @@
   </head>
   <body>
     <main>
-      <div>
-        <h1>Games</h1>
-        <p class="brand-text">
-          "Play is the highest form of research." – Albert Einstein
-        </p>
-      </div>
-
-      <hr />
-
-      <div>
-        <div>
-          <img src="../assets/games/tictactoe.png" />
-          <div class="subject-box">
-            <h2>Tic Tac Toe</h2>
-            <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est
-              nostrum voluptatibus perspiciatis rerum.
-            </p>
-            <a href="/pages/games/tictactoe.html"
-              >Play <span class="brand-text">&RightArrow;</span></a
-            >
-          </div>
+      <div id="quiz-container">
+        <h1 id="quiz-title"></h1>
+        <div id="question-container">
+          <p id="question-number"></p>
+          <h2 id="question-text"></h2>
+          <div id="options-container"></div>
         </div>
       </div>
     </main>
@@ -58,5 +42,7 @@
         >
       </nav>
     </div>
+
+    <script src="/scripts/attempt-quiz.js"></script>
   </body>
 </html>

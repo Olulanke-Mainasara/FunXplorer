@@ -105,3 +105,31 @@ main > div > div {
 .feature-box > p {
   color: rgb(181, 179, 179);
 }
+
+@media screen and (max-width: 768px) {
+  main > div {
+    flex-direction: column;
+    padding: 0 1rem;
+  }
+
+  main > h1 {
+    font-size: 3rem;
+  }
+
+  #left-child {
+    width: 100%;
+  }
+
+  #left-child > div {
+    padding: 1rem 0.5rem;
+  }
+
+  #right-child {
+    width: 100%;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  #right-child > div {
+    width: 100%;
+  }
+}

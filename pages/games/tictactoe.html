@@ -2,9 +2,10 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Games - FunXplorer</title>
-    <link rel="stylesheet" href="/styles/shared.css" />
+    <title>Games | TicTacToe - FunXplorer</title>
+    <link rel="stylesheet" href="/styles/tictactoe.css" />
     <link rel="stylesheet" href="/styles/general-styling.css" />
     <script
       src="https://kit.fontawesome.com/aae4243485.js"
@@ -12,32 +13,22 @@
     ></script>
   </head>
   <body>
-    <main>
-      <div>
-        <h1>Games</h1>
-        <p class="brand-text">
-          "Play is the highest form of research." – Albert Einstein
-        </p>
-      </div>
+    <div class="container">
+      <h1 id="playerText">Tic Tac Toe</h1>
+      <button id="restartBtn">Restart</button>
 
-      <hr />
-
-      <div>
-        <div>
-          <img src="../assets/games/tictactoe.png" />
-          <div class="subject-box">
-            <h2>Tic Tac Toe</h2>
-            <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est
-              nostrum voluptatibus perspiciatis rerum.
-            </p>
-            <a href="/pages/games/tictactoe.html"
-              >Play <span class="brand-text">&RightArrow;</span></a
-            >
-          </div>
-        </div>
+      <div id="gameboard">
+        <div class="box" id="0"></div>
+        <div class="box" id="1"></div>
+        <div class="box" id="2"></div>
+        <div class="box" id="3"></div>
+        <div class="box" id="4"></div>
+        <div class="box" id="5"></div>
+        <div class="box" id="6"></div>
+        <div class="box" id="7"></div>
+        <div class="box" id="8"></div>
       </div>
-    </main>
+    </div>
 
     <div id="navigation-box">
       <nav>
@@ -58,5 +49,7 @@
         >
       </nav>
     </div>
+
+    <script src="/scripts/tictactoe.js"></script>
   </body>
 </html>

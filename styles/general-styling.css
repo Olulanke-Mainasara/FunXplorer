@@ -69,18 +69,35 @@ button {
 }
 
 nav {
+  width: fit-content;
   display: flex;
   border: 2px solid #fff;
+  background-color: #294356;
   border-radius: 30px;
   overflow: hidden;
   padding: 1rem 0;
 }
 
 nav > a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
   padding: 5px 1.5rem;
   border-right: 1px solid #f7931e;
+  transition: all 0.3s;
+}
+
+nav > a:hover {
+  color: #f7931e;
 }
 
 nav > a:last-child {
   border-right: none;
+}
+
+@media screen and (max-width: 768px) {
+  nav > a > span {
+    display: none;
+  }
 }

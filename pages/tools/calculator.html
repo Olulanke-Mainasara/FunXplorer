@@ -4,31 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tools | Calculator - FunXplorer</title>
-    <link rel="stylesheet" href="../../styles/calculator.css">
-    <link rel="stylesheet" href="../../general-styling.css">
+    <link rel="stylesheet" href="/styles/calculator.css">
+    <link rel="stylesheet" href="/styles/general-styling.css">
+    <script
+      src="https://kit.fontawesome.com/aae4243485.js"
+      crossorigin="anonymous"
+    ></script>
 </head>
 <body>
     <main>
         <div>              
             <h1>Scientific Calculator</h1>
     
-            <div>
-                <div class="result-display">
+            <div id="calc-box">
+                <div id="result-display">
                     <div id="topRBox">
-                        <p>0</p>
+                        0
                     </div>
                     
                     <div id="bottomRBox">
-                        <p>0</p>
+                        0
                     </div>
                 </div>
 
                 <div id="number-set">
-                    <button type="reset" class="diff-theme" name="clear" id="clear" value="ac">ac</button>
-                    <button value="-">+ / -</button>
+                    <button class="diff-theme" name="clear" id="clear" value="ac">ac</button>
                     <button name="modulus" class="operation diff-theme" value="%">%</button>
                     <button name="divide" class="operation diff-theme" value="/">/</button>
-                    <button name="multiply" class="operation diff-theme" value="x">x</button>
+                    <button name="multiply" class="operation diff-theme" value="*">x</button>
                     <button value="(">(</button>
                     <button value="7">7</button>
                     <button value="8">8</button>
@@ -51,15 +54,28 @@
             </div>
         </div>
     </main>
-    
+
     <div id="navigation-box">
       <nav>
-        <a href="/pages/home.html">Home</a>
-        <a href="/pages/learn.html">Learn</a>
-        <a href="/pages/quiz.html">Quiz</a>
-        <a href="/pages/games.html">Games</a>
-        <a href="/pages/tools.html">Tools</a>
+        <a href="/pages/home.html"
+          ><i class="fa-solid fa-house"></i> <span>Home</span></a
+        >
+        <a href="/pages/learn.html"
+          ><i class="fa-solid fa-lines-leaning"></i> <span>Learn</span></a
+        >
+        <a href="/pages/quiz.html"
+          ><i class="fa-solid fa-pen"></i> <span>Quiz</span></a
+        >
+        <a href="/pages/games.html"
+          ><i class="fa-solid fa-gamepad"></i> <span>Games</span></a
+        >
+        <a href="/pages/tools.html"
+          ><i class="fa-solid fa-screwdriver-wrench"></i> <span>Tools</span></a
+        >
       </nav>
     </div>
+
+    <script src="../../scripts/calculator.js"></script>
+    <script src="../../scripts/script.js"></script>
 </body>
 </html>
