@@ -50,3 +50,27 @@ main > div > a:hover {
   background-color: #fff;
   color: #000;
 }
+
+@media screen and (max-width: 768px) {
+  main > div > h1 {
+    font-size: 4rem;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  main {
+    flex-direction: column;
+  }
+
+  main > div {
+    width: 100%;
+  }
+
+  main > div:last-child {
+    align-items: center;
+  }
+
+  main > div > p {
+    text-align: center;
+  }
+}

@@ -116,13 +116,28 @@ main > div > div {
 }
 
 @media screen and (max-width: 768px) {
-  main > div {
-    flex-direction: column;
-    padding: 0 1rem;
+  main {
+    height: auto;
+    min-height: 100dvh;
+    padding: 2rem 1rem;
   }
 
-  main > h1 {
+  main > div {
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: 0;
+  }
+
+  main > a {
+    gap: 1rem;
+  }
+
+  main > a > h1 {
     font-size: 3rem;
+  }
+
+  #logo {
+    scale: 1.3;
   }
 
   #left-child {
@@ -130,15 +145,28 @@ main > div > div {
   }
 
   #left-child > div {
+    overflow: hidden;
     padding: 1rem 0.5rem;
+  }
+
+  #left-child > div > p {
+    font-size: 1.1rem;
   }
 
   #right-child {
     width: 100%;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(1, 1fr);
+    gap: 1.5rem;
   }
 
   #right-child > div {
+    overflow: hidden;
     width: 100%;
+    height: 250px;
+  }
+
+  #right-child > div > div > p,
+  #right-child > div > div > a {
+    font-size: 1.2rem;
   }
 }

@@ -68,7 +68,7 @@ main > div:last-child > div > img {
   color: #fff;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   main {
     padding: 1rem;
     padding-bottom: 105px;
@@ -96,5 +96,16 @@ main > div:last-child > div > img {
 
   main > div:last-child > div {
     height: 200px;
+  }
+
+  .subject-box > p,
+  .subject-box > a {
+    font-size: 1.2rem;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  main > div:last-child {
+    grid-template-columns: repeat(2, 1fr);
   }
 }

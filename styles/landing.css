@@ -1,5 +1,5 @@
 #hero {
-  height: 100dvh;
+  min-height: 100dvh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -62,7 +62,7 @@
 }
 
 #about-us {
-  height: 100dvh;
+  min-height: 100dvh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -291,10 +291,9 @@
 }
 
 #contact {
-  min-height: 100dvh;
+  width: 100%;
   display: flex;
   gap: 2rem;
-  padding: 1.5rem;
   background-color: #fff;
 }
 
@@ -361,7 +360,7 @@ form > button:hover {
 }
 
 footer {
-  height: 100dvh;
+  min-height: 100dvh;
   padding: 2rem;
   background-color: #294356;
   color: #fff;
@@ -371,6 +370,7 @@ footer {
 
 footer > div {
   display: flex;
+  align-items: center;
   gap: 1rem;
   width: 100%;
   height: 90%;
@@ -420,4 +420,192 @@ footer > div > div:last-child > img {
 footer > p {
   font-size: 1rem;
   text-align: center;
+}
+
+@media screen and (max-width: 1024px) {
+  #hero {
+    min-height: fit-content;
+    padding: 2rem 1rem;
+  }
+
+  #hero-text > h1 {
+    font-size: 5rem;
+    max-width: 800px;
+  }
+
+  #about-us {
+    min-height: fit-content;
+    flex-direction: column;
+    text-align: center;
+    padding: 2rem 1rem;
+  }
+
+  #about-us > img {
+    width: 60%;
+  }
+
+  #about-us > div > p {
+    font-size: 1.2rem;
+    max-width: 500px;
+  }
+
+  #feature-section {
+    padding-top: 2rem;
+    padding: 2rem 1rem;
+  }
+
+  #feature-section > h2 {
+    font-size: 3rem;
+  }
+
+  .feature > div > div > h2 {
+    font-size: 3rem;
+  }
+
+  .feature > div > div > p,
+  .feature > div > div > a {
+    font-size: 1rem;
+  }
+
+  #faq {
+    min-height: fit-content;
+    padding: 2rem 1rem;
+  }
+
+  #faq > h2 {
+    font-size: 3rem;
+    text-align: center;
+  }
+
+  #testimonials {
+    min-height: fit-content;
+    padding: 2rem 1rem;
+  }
+
+  #testimonials > h2 {
+    font-size: 3rem;
+    text-align: center;
+  }
+
+  #testimonials > div {
+    gap: 1rem;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  #contact {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #contact > div:first-child {
+    width: 100%;
+  }
+
+  #contact > div:last-child {
+    width: 100%;
+    align-items: center;
+  }
+
+  #contact > div:last-child > h2 {
+    font-size: 3rem;
+  }
+
+  footer {
+    min-height: fit-content;
+    gap: 20px;
+    padding: 2rem 1rem;
+  }
+
+  footer > div {
+    flex-direction: column-reverse;
+  }
+
+  footer > div > div {
+    height: fit-content;
+    align-items: center;
+  }
+
+  footer > div > div:first-child {
+    width: 100%;
+  }
+
+  footer > div > div:first-child > h2 {
+    max-width: 500px;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  #hero-text > div > h2 {
+    font-size: 1.5rem;
+  }
+
+  #hero-text > h1 {
+    font-size: 3rem;
+  }
+
+  #about-us > img {
+    width: 100%;
+  }
+
+  #about-us > div > h2 {
+    font-size: 2.5rem;
+  }
+
+  #feature-section > h2 {
+    font-size: 2.5rem;
+  }
+
+  .feature:nth-child(1),
+  .feature:nth-child(3),
+  .feature:nth-child(5) {
+    flex-direction: column;
+  }
+
+  .feature:nth-child(2),
+  .feature:nth-child(4) {
+    padding-top: 30px;
+  }
+
+  .feature > img,
+  .feature > div {
+    width: 100%;
+  }
+
+  .feature > div > div {
+    text-align: center;
+    align-items: center;
+  }
+
+  .feature > div > div > p {
+    font-size: 1.2rem;
+  }
+
+  #faq > h2 {
+    font-size: 2.5rem;
+  }
+
+  #faq > div {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .faq-item:nth-child(7) {
+    border-bottom: 1px solid #fff;
+  }
+
+  #testimonials > h2 {
+    font-size: 2.5rem;
+  }
+
+  #testimonials > div {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  #contact {
+    min-height: fit-content;
+  }
+
+  #contact > div:last-child > h2 {
+    font-size: 2.5rem;
+  }
 }
