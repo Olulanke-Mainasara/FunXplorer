@@ -8,7 +8,7 @@ main {
   padding: 5rem 0;
 }
 
-main > h1 {
+main > a > h1 {
   font-size: 5rem;
 }
 

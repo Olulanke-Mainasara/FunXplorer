@@ -50,8 +50,3 @@ main > div > a:hover {
   background-color: #fff;
   color: #000;
 }
-
-main > div > a:active {
-  background-color: #fff;
-  color: #000;
-}
