@@ -45,7 +45,7 @@ main > div:last-child > div > img {
 .subject-box {
   position: absolute;
   inset: 0;
-  backdrop-filter: brightness(0.1);
+  backdrop-filter: brightness(0.15);
   display: flex;
   flex-direction: column;
   justify-content: end;

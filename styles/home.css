@@ -5,7 +5,17 @@ main {
   align-items: center;
   height: 100dvh;
   width: 100%;
-  padding: 5rem 0;
+  padding: 5rem 2rem;
+}
+
+#logo {
+  scale: 1.7;
+}
+
+main > a {
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
 }
 
 main > a > h1 {
@@ -14,7 +24,6 @@ main > a > h1 {
 
 main > div {
   width: 100%;
-  max-width: 1200px;
   flex-grow: 1;
   display: flex;
   justify-content: center;
