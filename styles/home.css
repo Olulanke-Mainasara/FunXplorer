@@ -12,6 +12,15 @@ main {
   scale: 1.7;
 }
 
+main > a:first-child {
+  padding: 1rem;
+  font-size: 1.3rem;
+}
+
+main > a:first-child > span {
+  color: #f7931e;
+}
+
 main > a {
   display: flex;
   gap: 1.5rem;

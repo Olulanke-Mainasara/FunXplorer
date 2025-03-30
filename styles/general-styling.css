@@ -6,7 +6,7 @@
 
 body {
   font-family: "Poppins", sans-serif;
-  background-color: #294356;
+  background: linear-gradient(135deg, #294356 45%, #f7931e);
 }
 
 a {
