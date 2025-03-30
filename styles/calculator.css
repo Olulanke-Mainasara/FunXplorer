@@ -1,3 +1,8 @@
+body {
+  background: linear-gradient(135deg, #294356, #f7931e);
+  border: 1px solid #fff;
+}
+
 main {
   height: 100dvh;
   display: flex;

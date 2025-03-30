@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tools | Timer - FunXplorer</title>
+    <link rel="stylesheet" href="/styles/general-styling.css" />
+    <link rel="stylesheet" href="/styles/timer.css" />
+    <script defer src="/scripts/timer.js"></script>
+    <script
+      src="https://kit.fontawesome.com/aae4243485.js"
+      crossorigin="anonymous"
+    ></script>
+    <script defer src="../../scripts/script.js"></script>
+  </head>
+  <body>
+    <div class="timer-container">
+      <h1>⏱ Timer</h1>
+      <input
+        type="number"
+        id="timer-duration"
+        placeholder="Set duration (minutes)"
+        min="1"
+      />
+      <div class="timer-display" id="timer-display">00:00</div>
+      <div class="timer-controls">
+        <button id="start-timer">Start</button>
+        <button id="stop-timer">Stop</button>
+        <button id="reset-timer">Reset</button>
+      </div>
+    </div>
+
+    <div id="navigation-box">
+      <nav>
+        <a href="/pages/home.html"
+          ><i class="fa-solid fa-house"></i> <span>Home</span></a
+        >
+        <a href="/pages/learn.html"
+          ><i class="fa-solid fa-lines-leaning"></i> <span>Learn</span></a
+        >
+        <a href="/pages/quiz.html"
+          ><i class="fa-solid fa-pen"></i> <span>Quiz</span></a
+        >
+        <a href="/pages/games.html"
+          ><i class="fa-solid fa-gamepad"></i> <span>Games</span></a
+        >
+        <a href="/pages/tools.html"
+          ><i class="fa-solid fa-screwdriver-wrench"></i> <span>Tools</span></a
+        >
+      </nav>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,81 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(135deg, #294356, #f7931e);
+  color: #fff;
+}
+
+.timer-container {
+  text-align: center;
+  padding: 30px;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #f7931e;
+}
+
+.timer-display {
+  font-size: 25rem;
+  font-weight: bold;
+  line-height: 1;
+  color: rgba(255, 255, 255, 0.5);
+  transition: color 0.3s ease;
+}
+
+.timer-display.active {
+  color: #fff;
+}
+
+.timer-controls {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.timer-controls button {
+  padding: 12px 25px;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #fff;
+  background: linear-gradient(135deg, #f7931e, #ff9f4e); /* Brand gradient */
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.timer-controls button:hover {
+  background: linear-gradient(135deg, #ff9f4e, #f7931e);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+}
+
+.timer-controls button:active {
+  transform: translateY(0);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+input#timer-duration {
+  padding: 10px;
+  font-size: 1rem;
+  width: 100%;
+  max-width: 360px;
+  text-align: center;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 5px;
+  background: rgba(255, 255, 255, 0.2);
+  color: #fff;
+  outline: none;
+}
+
+input#timer-duration::placeholder {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+@media screen and (max-width: ) {
+}
