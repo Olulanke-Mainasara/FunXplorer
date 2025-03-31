@@ -1,6 +1,8 @@
 main {
   height: 100dvh;
   padding: 2rem;
+  padding-bottom: 105px;
+  overflow: scroll;
 }
 
 main > div:first-child {
@@ -72,7 +74,6 @@ main > div:last-child > div > img {
   main {
     padding: 1rem;
     padding-bottom: 105px;
-    overflow-y: scroll;
   }
 
   main > div:first-child {

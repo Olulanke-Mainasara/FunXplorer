@@ -605,4 +605,1201 @@ export const questions = {
       answerIndex: 0,
     },
   ],
+
+  Economics: [
+    {
+      question: "What is the basic economic problem?",
+      options: ["Inflation", "Scarcity", "Unemployment", "Globalization"],
+      answerIndex: 1,
+    },
+    {
+      question:
+        "What is the term for the cost of the next best alternative foregone?",
+      options: [
+        "Opportunity cost",
+        "Marginal cost",
+        "Fixed cost",
+        "Variable cost",
+      ],
+      answerIndex: 0,
+    },
+    {
+      question: "What is GDP an abbreviation for?",
+      options: [
+        "Gross Domestic Product",
+        "Global Domestic Product",
+        "Gross Development Plan",
+        "Global Development Plan",
+      ],
+      answerIndex: 0,
+    },
+    {
+      question: "What is the law of demand?",
+      options: [
+        "As price increases, demand increases",
+        "As price decreases, demand decreases",
+        "As price increases, demand decreases",
+        "Price and demand are unrelated",
+      ],
+      answerIndex: 2,
+    },
+    {
+      question: "What is the term for a market with only one seller?",
+      options: ["Monopoly", "Oligopoly", "Perfect competition", "Monopsony"],
+      answerIndex: 0,
+    },
+    {
+      question: "What is inflation?",
+      options: [
+        "A decrease in the general price level",
+        "An increase in the general price level",
+        "A decrease in employment",
+        "An increase in GDP",
+      ],
+      answerIndex: 1,
+    },
+    {
+      question: "What is the term for goods used together, like cars and fuel?",
+      options: [
+        "Substitute goods",
+        "Complementary goods",
+        "Inferior goods",
+        "Luxury goods",
+      ],
+      answerIndex: 1,
+    },
+    {
+      question: "What is the term for a situation where supply equals demand?",
+      options: ["Equilibrium", "Surplus", "Shortage", "Elasticity"],
+      answerIndex: 0,
+    },
+    {
+      question:
+        "What is the term for the additional satisfaction from consuming one more unit of a good?",
+      options: [
+        "Marginal utility",
+        "Total utility",
+        "Opportunity cost",
+        "Marginal cost",
+      ],
+      answerIndex: 0,
+    },
+    {
+      question: "What is the term for a tax on imported goods?",
+      options: ["Subsidy", "Tariff", "Quota", "Excise tax"],
+      answerIndex: 1,
+    },
+    {
+      question:
+        "What is the term for a market with many buyers and sellers selling identical products?",
+      options: ["Monopoly", "Oligopoly", "Perfect competition", "Monopsony"],
+      answerIndex: 2,
+    },
+    {
+      question: "What is fiscal policy?",
+      options: [
+        "Government decisions on taxation and spending",
+        "Central bank decisions on interest rates",
+        "Policies to control inflation",
+        "Policies to regulate trade",
+      ],
+      answerIndex: 0,
+    },
+    {
+      question:
+        "What is the term for the total value of goods and services produced in a country in a year?",
+      options: [
+        "Net National Product",
+        "Gross Domestic Product",
+        "Gross National Income",
+        "Net Domestic Product",
+      ],
+      answerIndex: 1,
+    },
+    {
+      question:
+        "What is the term for a sustained increase in the general price level?",
+      options: ["Deflation", "Inflation", "Stagflation", "Recession"],
+      answerIndex: 1,
+    },
+    {
+      question:
+        "What is the term for the ability of a country to produce a good at a lower opportunity cost than another country?",
+      options: [
+        "Absolute advantage",
+        "Comparative advantage",
+        "Competitive advantage",
+        "Economic advantage",
+      ],
+      answerIndex: 1,
+    },
+    {
+      question:
+        "What is the term for the unemployment caused by changes in the economy, such as technological advances?",
+      options: [
+        "Frictional unemployment",
+        "Structural unemployment",
+        "Cyclical unemployment",
+        "Seasonal unemployment",
+      ],
+      answerIndex: 1,
+    },
+    {
+      question:
+        "What is the term for the responsiveness of quantity demanded to a change in price?",
+      options: [
+        "Price elasticity of demand",
+        "Income elasticity of demand",
+        "Cross elasticity of demand",
+        "Supply elasticity",
+      ],
+      answerIndex: 0,
+    },
+    {
+      question:
+        "What is the term for a good whose demand increases as income increases?",
+      options: [
+        "Inferior good",
+        "Normal good",
+        "Luxury good",
+        "Substitute good",
+      ],
+      answerIndex: 1,
+    },
+    {
+      question:
+        "What is the term for the total amount of money a government owes?",
+      options: [
+        "Budget deficit",
+        "National debt",
+        "Fiscal deficit",
+        "Trade deficit",
+      ],
+      answerIndex: 1,
+    },
+    {
+      question:
+        "What is the term for the practice of trading goods and services without using money?",
+      options: ["Barter", "Subsidy", "Quota", "Tariff"],
+      answerIndex: 0,
+    },
+  ],
+
+  Literature: [
+    {
+      question: "Who wrote the play 'Romeo and Juliet'?",
+      options: [
+        "William Shakespeare",
+        "Charles Dickens",
+        "Jane Austen",
+        "Mark Twain",
+      ],
+      answerIndex: 0,
+    },
+    {
+      question: "What is the title of the first Harry Potter book?",
+      options: [
+        "Harry Potter and the Chamber of Secrets",
+        "Harry Potter and the Philosopher's Stone",
+        "Harry Potter and the Goblet of Fire",
+        "Harry Potter and the Prisoner of Azkaban",
+      ],
+      answerIndex: 1,
+    },
+    {
+      question: "Who wrote 'Pride and Prejudice'?",
+      options: [
+        "Charlotte Brontë",
+        "Emily Brontë",
+        "Jane Austen",
+        "Louisa May Alcott",
+      ],
+      answerIndex: 2,
+    },
+    {
+      question:
+        "What is the name of the monster in Mary Shelley's 'Frankenstein'?",
+      options: ["Victor", "The Creature", "Igor", "Dracula"],
+      answerIndex: 1,
+    },
+    {
+      question: "Who wrote 'The Great Gatsby'?",
+      options: [
+        "F. Scott Fitzgerald",
+        "Ernest Hemingway",
+        "John Steinbeck",
+        "T.S. Eliot",
+      ],
+      answerIndex: 0,
+    },
+    {
+      question: "What is the setting of George Orwell's '1984'?",
+      options: ["Oceania", "Eurasia", "Eastasia", "Panem"],
+      answerIndex: 0,
+    },
+    {
+      question: "Who wrote 'To Kill a Mockingbird'?",
+      options: ["Harper Lee", "Mark Twain", "J.D. Salinger", "Toni Morrison"],
+      answerIndex: 0,
+    },
+    {
+      question: "What is the name of the dragon in 'The Hobbit'?",
+      options: ["Smaug", "Fafnir", "Drogon", "Norbert"],
+      answerIndex: 0,
+    },
+    {
+      question: "Who wrote 'Moby-Dick'?",
+      options: [
+        "Herman Melville",
+        "Nathaniel Hawthorne",
+        "Edgar Allan Poe",
+        "Henry David Thoreau",
+      ],
+      answerIndex: 0,
+    },
+    {
+      question: "What is the name of Sherlock Holmes' assistant?",
+      options: [
+        "Dr. Watson",
+        "Inspector Lestrade",
+        "Professor Moriarty",
+        "Mycroft Holmes",
+      ],
+      answerIndex: 0,
+    },
+    {
+      question: "Who wrote 'The Catcher in the Rye'?",
+      options: [
+        "J.D. Salinger",
+        "F. Scott Fitzgerald",
+        "Ernest Hemingway",
+        "John Steinbeck",
+      ],
+      answerIndex: 0,
+    },
+    {
+      question: "What is the name of the protagonist in 'The Hunger Games'?",
+      options: [
+        "Katniss Everdeen",
+        "Tris Prior",
+        "Bella Swan",
+        "Hermione Granger",
+      ],
+      answerIndex: 0,
+    },
+    {
+      question: "Who wrote 'The Odyssey'?",
+      options: ["Homer", "Virgil", "Sophocles", "Euripides"],
+      answerIndex: 0,
+    },
+    {
+      question:
+        "What is the name of the magical land in 'The Chronicles of Narnia'?",
+      options: ["Middle-earth", "Hogwarts", "Narnia", "Westeros"],
+      answerIndex: 2,
+    },
+    {
+      question: "Who wrote 'The Scarlet Letter'?",
+      options: [
+        "Nathaniel Hawthorne",
+        "Herman Melville",
+        "Edgar Allan Poe",
+        "Henry James",
+      ],
+      answerIndex: 0,
+    },
+    {
+      question: "What is the name of the wizard in 'The Lord of the Rings'?",
+      options: ["Dumbledore", "Gandalf", "Saruman", "Radagast"],
+      answerIndex: 1,
+    },
+    {
+      question: "Who wrote 'Animal Farm'?",
+      options: [
+        "George Orwell",
+        "Aldous Huxley",
+        "Ray Bradbury",
+        "Kurt Vonnegut",
+      ],
+      answerIndex: 0,
+    },
+    {
+      question: "What is the name of the boy in 'The Jungle Book'?",
+      options: ["Mowgli", "Tarzan", "Huck", "Tom"],
+      answerIndex: 0,
+    },
+    {
+      question: "Who wrote 'The Divine Comedy'?",
+      options: [
+        "Dante Alighieri",
+        "Geoffrey Chaucer",
+        "John Milton",
+        "William Blake",
+      ],
+      answerIndex: 0,
+    },
+    {
+      question: "What is the name of the whale in 'Moby-Dick'?",
+      options: ["Moby", "Dick", "White Whale", "None of the above"],
+      answerIndex: 2,
+    },
+  ],
+
+  Government: [
+    {
+      question:
+        "What is the primary function of the legislative branch of government?",
+      options: [
+        "To enforce laws",
+        "To interpret laws",
+        "To make laws",
+        "To oversee elections",
+      ],
+      answerIndex: 2,
+    },
+    {
+      question:
+        "Who is the head of the executive branch in a presidential system?",
+      options: [
+        "The Prime Minister",
+        "The President",
+        "The Speaker of the House",
+        "The Chief Justice",
+      ],
+      answerIndex: 1,
+    },
+    {
+      question:
+        "What is the term for a system of government where power is divided between a central authority and smaller political units?",
+      options: [
+        "Unitary system",
+        "Federal system",
+        "Confederate system",
+        "Monarchy",
+      ],
+      answerIndex: 1,
+    },
+    {
+      question: "What is the highest court in the United States?",
+      options: [
+        "The Supreme Court",
+        "The Court of Appeals",
+        "The District Court",
+        "The Constitutional Court",
+      ],
+      answerIndex: 0,
+    },
+    {
+      question: "What is the term for the right to vote?",
+      options: ["Suffrage", "Democracy", "Franchise", "Electoral privilege"],
+      answerIndex: 0,
+    },
+    {
+      question:
+        "What is the primary role of the judicial branch of government?",
+      options: [
+        "To make laws",
+        "To enforce laws",
+        "To interpret laws",
+        "To conduct elections",
+      ],
+      answerIndex: 2,
+    },
+    {
+      question: "What is the term for a government ruled by a king or queen?",
+      options: ["Democracy", "Monarchy", "Oligarchy", "Republic"],
+      answerIndex: 1,
+    },
+    {
+      question:
+        "What is the term for a government where citizens elect representatives to make decisions on their behalf?",
+      options: [
+        "Direct democracy",
+        "Representative democracy",
+        "Oligarchy",
+        "Autocracy",
+      ],
+      answerIndex: 1,
+    },
+    {
+      question:
+        "What is the term for the division of power among the legislative, executive, and judicial branches?",
+      options: [
+        "Checks and balances",
+        "Separation of powers",
+        "Federalism",
+        "Rule of law",
+      ],
+      answerIndex: 1,
+    },
+    {
+      question:
+        "What is the term for a law that applies to actions that occurred before the law was passed?",
+      options: [
+        "Ex post facto law",
+        "Habeas corpus",
+        "Bill of attainder",
+        "Judicial review",
+      ],
+      answerIndex: 0,
+    },
+    {
+      question:
+        "What is the term for the principle that no one is above the law?",
+      options: [
+        "Rule of law",
+        "Judicial review",
+        "Checks and balances",
+        "Separation of powers",
+      ],
+      answerIndex: 0,
+    },
+    {
+      question:
+        "What is the term for a government ruled by a small group of people?",
+      options: ["Democracy", "Oligarchy", "Monarchy", "Republic"],
+      answerIndex: 1,
+    },
+    {
+      question:
+        "What is the term for a government where one person has absolute power?",
+      options: ["Democracy", "Autocracy", "Oligarchy", "Republic"],
+      answerIndex: 1,
+    },
+    {
+      question:
+        "What is the term for the process by which a bill becomes a law?",
+      options: ["Legislation", "Ratification", "Amendment", "Enactment"],
+      answerIndex: 0,
+    },
+    {
+      question:
+        "What is the term for the power of the courts to declare laws unconstitutional?",
+      options: [
+        "Judicial review",
+        "Habeas corpus",
+        "Ex post facto",
+        "Checks and balances",
+      ],
+      answerIndex: 0,
+    },
+    {
+      question:
+        "What is the term for the system that prevents one branch of government from becoming too powerful?",
+      options: [
+        "Federalism",
+        "Checks and balances",
+        "Rule of law",
+        "Separation of powers",
+      ],
+      answerIndex: 1,
+    },
+    {
+      question: "What is the term for a formal change to a constitution?",
+      options: ["Amendment", "Ratification", "Legislation", "Enactment"],
+      answerIndex: 0,
+    },
+    {
+      question:
+        "What is the term for the process of removing a public official from office?",
+      options: ["Impeachment", "Recall", "Censure", "Resignation"],
+      answerIndex: 0,
+    },
+    {
+      question:
+        "What is the term for the first ten amendments to the U.S. Constitution?",
+      options: [
+        "The Articles of Confederation",
+        "The Bill of Rights",
+        "The Federalist Papers",
+        "The Declaration of Independence",
+      ],
+      answerIndex: 1,
+    },
+    {
+      question:
+        "What is the term for the system in which citizens vote directly on laws and policies?",
+      options: [
+        "Direct democracy",
+        "Representative democracy",
+        "Oligarchy",
+        "Republic",
+      ],
+      answerIndex: 0,
+    },
+  ],
+
+  Marketing: [
+    {
+      question: "What is the 4Ps model in marketing?",
+      options: [
+        "Product, Price, Place, Promotion",
+        "Plan, Process, People, Profit",
+        "Product, People, Price, Profit",
+        "Place, Promotion, People, Process",
+      ],
+      answerIndex: 0,
+    },
+    {
+      question:
+        "What is the term for dividing a market into distinct groups of buyers?",
+      options: ["Market segmentation", "Targeting", "Positioning", "Branding"],
+      answerIndex: 0,
+    },
+    {
+      question:
+        "What is the term for the process of creating a unique image for a product in the customer's mind?",
+      options: ["Branding", "Positioning", "Targeting", "Segmentation"],
+      answerIndex: 1,
+    },
+    {
+      question:
+        "What is the term for a company's promise to deliver a specific set of benefits to customers?",
+      options: [
+        "Value proposition",
+        "Mission statement",
+        "Brand equity",
+        "Customer loyalty",
+      ],
+      answerIndex: 0,
+    },
+    {
+      question:
+        "What is the term for the percentage of a market that a company controls?",
+      options: [
+        "Market share",
+        "Market penetration",
+        "Market growth",
+        "Market segmentation",
+      ],
+      answerIndex: 0,
+    },
+    {
+      question:
+        "What is the term for the process of promoting a product through digital channels?",
+      options: [
+        "Traditional marketing",
+        "Digital marketing",
+        "Direct marketing",
+        "Relationship marketing",
+      ],
+      answerIndex: 1,
+    },
+    {
+      question:
+        "What is the term for a short phrase or sentence that captures the essence of a brand?",
+      options: ["Logo", "Slogan", "Mission statement", "Tagline"],
+      answerIndex: 3,
+    },
+    {
+      question:
+        "What is the term for the process of identifying and satisfying customer needs?",
+      options: ["Sales", "Marketing", "Advertising", "Branding"],
+      answerIndex: 1,
+    },
+    {
+      question:
+        "What is the term for the practice of influencing potential customers through social media?",
+      options: [
+        "Influencer marketing",
+        "Content marketing",
+        "Affiliate marketing",
+        "Email marketing",
+      ],
+      answerIndex: 0,
+    },
+    {
+      question:
+        "What is the term for a group of customers a company aims to serve?",
+      options: ["Target market", "Market segment", "Customer base", "Audience"],
+      answerIndex: 0,
+    },
+    {
+      question:
+        "What is the term for the process of collecting and analyzing data about customers?",
+      options: [
+        "Market research",
+        "Customer profiling",
+        "Data mining",
+        "Analytics",
+      ],
+      answerIndex: 0,
+    },
+    {
+      question:
+        "What is the term for the total value a customer brings to a company over their lifetime?",
+      options: [
+        "Customer lifetime value",
+        "Customer equity",
+        "Customer retention",
+        "Customer satisfaction",
+      ],
+      answerIndex: 0,
+    },
+    {
+      question:
+        "What is the term for the strategy of selling additional products to existing customers?",
+      options: ["Cross-selling", "Upselling", "Bundling", "Discounting"],
+      answerIndex: 0,
+    },
+    {
+      question:
+        "What is the term for the strategy of selling a higher-end product to a customer?",
+      options: ["Cross-selling", "Upselling", "Bundling", "Discounting"],
+      answerIndex: 1,
+    },
+    {
+      question:
+        "What is the term for the process of creating and sharing valuable content to attract customers?",
+      options: [
+        "Content marketing",
+        "Social media marketing",
+        "Affiliate marketing",
+        "Email marketing",
+      ],
+      answerIndex: 0,
+    },
+    {
+      question:
+        "What is the term for the emotional connection a customer has with a brand?",
+      options: [
+        "Brand loyalty",
+        "Brand equity",
+        "Customer satisfaction",
+        "Customer retention",
+      ],
+      answerIndex: 0,
+    },
+    {
+      question:
+        "What is the term for the process of setting a price for a product?",
+      options: [
+        "Pricing strategy",
+        "Market research",
+        "Cost analysis",
+        "Value proposition",
+      ],
+      answerIndex: 0,
+    },
+    {
+      question:
+        "What is the term for a company's efforts to maintain a positive public image?",
+      options: ["Public relations", "Advertising", "Branding", "Marketing"],
+      answerIndex: 0,
+    },
+    {
+      question:
+        "What is the term for a promotional strategy that uses discounts and coupons?",
+      options: [
+        "Sales promotion",
+        "Direct marketing",
+        "Content marketing",
+        "Affiliate marketing",
+      ],
+      answerIndex: 0,
+    },
+    {
+      question:
+        "What is the term for a company's unique design, symbol, or logo?",
+      options: [
+        "Brand identity",
+        "Brand equity",
+        "Brand loyalty",
+        "Brand awareness",
+      ],
+      answerIndex: 0,
+    },
+  ],
+
+  ICT: [
+    {
+      question: "What does 'ICT' stand for?",
+      options: [
+        "Information and Communication Technology",
+        "Internet and Computer Technology",
+        "Information and Computing Tools",
+        "Integrated Communication Technology",
+      ],
+      answerIndex: 0,
+    },
+    {
+      question: "What is the main function of a CPU in a computer?",
+      options: [
+        "To store data",
+        "To process data",
+        "To display data",
+        "To connect to the internet",
+      ],
+      answerIndex: 1,
+    },
+    {
+      question: "What does 'HTTP' stand for?",
+      options: [
+        "HyperText Transfer Protocol",
+        "HyperText Transmission Protocol",
+        "Hyperlink Transfer Protocol",
+        "Hyperlink Text Processing",
+      ],
+      answerIndex: 0,
+    },
+    {
+      question:
+        "What is the term for a computer program that replicates itself and spreads to other devices?",
+      options: ["Trojan", "Worm", "Virus", "Spyware"],
+      answerIndex: 2,
+    },
+    {
+      question: "What is the binary representation of the decimal number 5?",
+      options: ["101", "110", "111", "100"],
+      answerIndex: 0,
+    },
+    {
+      question: "What does 'RAM' stand for?",
+      options: [
+        "Random Access Memory",
+        "Read Access Memory",
+        "Read And Modify",
+        "Random Allocation Memory",
+      ],
+      answerIndex: 0,
+    },
+    {
+      question:
+        "What is the term for a network that spans a large geographical area?",
+      options: ["LAN", "WAN", "MAN", "PAN"],
+      answerIndex: 1,
+    },
+    {
+      question:
+        "What is the primary purpose of a firewall in a computer network?",
+      options: [
+        "To speed up the internet",
+        "To block unauthorized access",
+        "To store data",
+        "To connect devices",
+      ],
+      answerIndex: 1,
+    },
+    {
+      question: "What does 'URL' stand for?",
+      options: [
+        "Universal Resource Locator",
+        "Uniform Resource Locator",
+        "Universal Reference Link",
+        "Uniform Reference Link",
+      ],
+      answerIndex: 1,
+    },
+    {
+      question:
+        "What is the term for malicious software designed to harm or exploit systems?",
+      options: ["Malware", "Adware", "Spyware", "Ransomware"],
+      answerIndex: 0,
+    },
+    {
+      question: "What is the full form of 'IP' in IP address?",
+      options: [
+        "Internet Protocol",
+        "Internal Protocol",
+        "Internet Process",
+        "Internal Process",
+      ],
+      answerIndex: 0,
+    },
+    {
+      question:
+        "What is the term for a collection of interconnected computers?",
+      options: ["Database", "Network", "Server", "Cloud"],
+      answerIndex: 1,
+    },
+    {
+      question: "What does 'DNS' stand for?",
+      options: [
+        "Domain Name System",
+        "Data Network System",
+        "Digital Name Service",
+        "Domain Network Service",
+      ],
+      answerIndex: 0,
+    },
+    {
+      question:
+        "What is the term for a device that connects multiple networks together?",
+      options: ["Router", "Switch", "Hub", "Modem"],
+      answerIndex: 0,
+    },
+    {
+      question:
+        "What is the term for a software application used to access the internet?",
+      options: ["Browser", "Search engine", "Operating system", "Firewall"],
+      answerIndex: 0,
+    },
+    {
+      question: "What does 'HTML' stand for?",
+      options: [
+        "HyperText Markup Language",
+        "HyperText Machine Language",
+        "Hyperlink Markup Language",
+        "Hyperlink Machine Language",
+      ],
+      answerIndex: 0,
+    },
+    {
+      question:
+        "What is the term for a unique string of numbers used to identify a device on a network?",
+      options: ["MAC address", "IP address", "Subnet mask", "Gateway"],
+      answerIndex: 1,
+    },
+    {
+      question:
+        "What is the term for a computer that provides resources to other computers on a network?",
+      options: ["Client", "Server", "Router", "Switch"],
+      answerIndex: 1,
+    },
+    {
+      question:
+        "What is the term for a small piece of data sent from a website and stored on the user's computer?",
+      options: ["Cache", "Cookie", "Session", "Token"],
+      answerIndex: 1,
+    },
+    {
+      question: "What does 'VPN' stand for?",
+      options: [
+        "Virtual Private Network",
+        "Virtual Public Network",
+        "Virtual Protected Network",
+        "Virtual Personal Network",
+      ],
+      answerIndex: 0,
+    },
+  ],
+
+  Commerce: [
+    {
+      question: "What is the primary objective of a business?",
+      options: [
+        "To provide employment",
+        "To earn profit",
+        "To promote social welfare",
+        "To produce goods",
+      ],
+      answerIndex: 1,
+    },
+    {
+      question:
+        "What is the term for the process of buying and selling goods and services?",
+      options: ["Marketing", "Commerce", "Trade", "Distribution"],
+      answerIndex: 2,
+    },
+    {
+      question:
+        "What is the term for the person who takes the risk of starting a business?",
+      options: ["Manager", "Entrepreneur", "Investor", "Employee"],
+      answerIndex: 1,
+    },
+    {
+      question:
+        "What is the term for the money invested in a business by its owners?",
+      options: ["Revenue", "Profit", "Capital", "Loan"],
+      answerIndex: 2,
+    },
+    {
+      question:
+        "What is the term for the difference between revenue and expenses?",
+      options: ["Profit", "Loss", "Capital", "Turnover"],
+      answerIndex: 0,
+    },
+    {
+      question:
+        "What is the term for the process of managing the flow of goods from producer to consumer?",
+      options: ["Marketing", "Logistics", "Distribution", "Warehousing"],
+      answerIndex: 2,
+    },
+    {
+      question: "What is the term for a market structure with only one seller?",
+      options: ["Monopoly", "Oligopoly", "Perfect competition", "Monopsony"],
+      answerIndex: 0,
+    },
+    {
+      question:
+        "What is the term for the written document that outlines a company's goals and strategies?",
+      options: [
+        "Business plan",
+        "Mission statement",
+        "Marketing strategy",
+        "Annual report",
+      ],
+      answerIndex: 0,
+    },
+    {
+      question:
+        "What is the term for the amount of money a business earns from selling goods or services?",
+      options: ["Profit", "Revenue", "Capital", "Turnover"],
+      answerIndex: 1,
+    },
+    {
+      question:
+        "What is the term for the process of determining the price of a product?",
+      options: [
+        "Pricing strategy",
+        "Cost analysis",
+        "Revenue management",
+        "Market research",
+      ],
+      answerIndex: 0,
+    },
+    {
+      question:
+        "What is the term for the practice of selling goods directly to consumers?",
+      options: ["Wholesale", "Retail", "Distribution", "E-commerce"],
+      answerIndex: 1,
+    },
+    {
+      question:
+        "What is the term for the process of promoting and selling products or services?",
+      options: ["Marketing", "Advertising", "Branding", "Public relations"],
+      answerIndex: 0,
+    },
+    {
+      question:
+        "What is the term for the money borrowed by a business to fund its operations?",
+      options: ["Loan", "Capital", "Revenue", "Profit"],
+      answerIndex: 0,
+    },
+    {
+      question:
+        "What is the term for the process of managing a company's financial resources?",
+      options: ["Accounting", "Finance", "Budgeting", "Auditing"],
+      answerIndex: 1,
+    },
+    {
+      question:
+        "What is the term for the process of recording and summarizing financial transactions?",
+      options: ["Auditing", "Accounting", "Budgeting", "Bookkeeping"],
+      answerIndex: 3,
+    },
+    {
+      question:
+        "What is the term for the total value of goods and services produced by a country in a year?",
+      options: [
+        "Gross Domestic Product (GDP)",
+        "Net National Product (NNP)",
+        "Gross National Income (GNI)",
+        "Net Domestic Product (NDP)",
+      ],
+      answerIndex: 0,
+    },
+    {
+      question:
+        "What is the term for the process of dividing a market into distinct groups of buyers?",
+      options: ["Market segmentation", "Targeting", "Positioning", "Branding"],
+      answerIndex: 0,
+    },
+    {
+      question:
+        "What is the term for the practice of selling goods in large quantities to retailers?",
+      options: ["Retail", "Wholesale", "Distribution", "E-commerce"],
+      answerIndex: 1,
+    },
+    {
+      question:
+        "What is the term for the process of attracting and retaining customers?",
+      options: [
+        "Customer relationship management",
+        "Marketing",
+        "Advertising",
+        "Public relations",
+      ],
+      answerIndex: 0,
+    },
+    {
+      question:
+        "What is the term for the process of analyzing a company's strengths, weaknesses, opportunities, and threats?",
+      options: [
+        "SWOT analysis",
+        "PEST analysis",
+        "Market research",
+        "Competitor analysis",
+      ],
+      answerIndex: 0,
+    },
+  ],
+
+  Drawing: [
+    {
+      question: "What is the primary purpose of technical drawing?",
+      options: [
+        "To create artistic designs",
+        "To communicate engineering ideas",
+        "To write technical reports",
+        "To calculate measurements",
+      ],
+      answerIndex: 1,
+    },
+    {
+      question:
+        "What is the term for a drawing that shows an object as it appears to the eye?",
+      options: [
+        "Orthographic projection",
+        "Isometric drawing",
+        "Perspective drawing",
+        "Oblique drawing",
+      ],
+      answerIndex: 2,
+    },
+    {
+      question:
+        "What is the term for a drawing that shows multiple views of an object?",
+      options: [
+        "Perspective drawing",
+        "Orthographic projection",
+        "Isometric drawing",
+        "Freehand sketch",
+      ],
+      answerIndex: 1,
+    },
+    {
+      question:
+        "What tool is commonly used to draw circles in technical drawing?",
+      options: ["Protractor", "Compass", "T-square", "Set square"],
+      answerIndex: 1,
+    },
+    {
+      question: "What is the standard angle used in isometric drawings?",
+      options: ["30 degrees", "45 degrees", "60 degrees", "90 degrees"],
+      answerIndex: 0,
+    },
+    {
+      question:
+        "What is the term for a thin, solid line used to indicate visible edges in a drawing?",
+      options: ["Hidden line", "Center line", "Object line", "Dimension line"],
+      answerIndex: 2,
+    },
+    {
+      question: "What is the purpose of a dimension line in technical drawing?",
+      options: [
+        "To show hidden edges",
+        "To indicate measurements",
+        "To mark the center of a circle",
+        "To create artistic effects",
+      ],
+      answerIndex: 1,
+    },
+    {
+      question:
+        "What is the term for a drawing that shows an object cut in half to reveal internal details?",
+      options: [
+        "Isometric drawing",
+        "Sectional view",
+        "Orthographic projection",
+        "Perspective drawing",
+      ],
+      answerIndex: 1,
+    },
+    {
+      question:
+        "What is the term for a line that represents the center of a circle or arc?",
+      options: ["Object line", "Hidden line", "Center line", "Dimension line"],
+      answerIndex: 2,
+    },
+    {
+      question:
+        "What is the term for a drawing that shows an object tilted to reveal three sides?",
+      options: [
+        "Orthographic projection",
+        "Isometric drawing",
+        "Perspective drawing",
+        "Oblique drawing",
+      ],
+      answerIndex: 1,
+    },
+    {
+      question:
+        "What tool is used to measure and draw angles in technical drawing?",
+      options: ["Compass", "Protractor", "T-square", "Set square"],
+      answerIndex: 1,
+    },
+    {
+      question:
+        "What is the term for a freehand drawing used to quickly communicate ideas?",
+      options: [
+        "Sketch",
+        "Blueprint",
+        "Isometric drawing",
+        "Orthographic projection",
+      ],
+      answerIndex: 0,
+    },
+    {
+      question:
+        "What is the term for a drawing that shows an object as if viewed from above?",
+      options: ["Front view", "Top view", "Side view", "Perspective view"],
+      answerIndex: 1,
+    },
+    {
+      question: "What is the term for a line that is not visible in a drawing?",
+      options: ["Object line", "Hidden line", "Center line", "Dimension line"],
+      answerIndex: 1,
+    },
+    {
+      question: "What is the purpose of a T-square in technical drawing?",
+      options: [
+        "To draw circles",
+        "To measure angles",
+        "To draw horizontal lines",
+        "To create artistic effects",
+      ],
+      answerIndex: 2,
+    },
+    {
+      question:
+        "What is the term for a drawing that shows the front, top, and side views of an object?",
+      options: [
+        "Perspective drawing",
+        "Orthographic projection",
+        "Isometric drawing",
+        "Oblique drawing",
+      ],
+      answerIndex: 1,
+    },
+    {
+      question:
+        "What is the term for a drawing that shows an object tilted to reveal its depth?",
+      options: [
+        "Isometric drawing",
+        "Orthographic projection",
+        "Perspective drawing",
+        "Oblique drawing",
+      ],
+      answerIndex: 3,
+    },
+    {
+      question:
+        "What is the term for the process of scaling a drawing to fit on paper?",
+      options: ["Dimensioning", "Projection", "Scaling", "Drafting"],
+      answerIndex: 2,
+    },
+    {
+      question:
+        "What is the term for a detailed drawing used to manufacture a product?",
+      options: [
+        "Blueprint",
+        "Sketch",
+        "Isometric drawing",
+        "Perspective drawing",
+      ],
+      answerIndex: 0,
+    },
+    {
+      question:
+        "What is the term for a drawing that shows an object as it would appear in real life?",
+      options: [
+        "Perspective drawing",
+        "Orthographic projection",
+        "Isometric drawing",
+        "Oblique drawing",
+      ],
+      answerIndex: 0,
+    },
+  ],
 };

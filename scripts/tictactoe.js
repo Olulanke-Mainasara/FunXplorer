@@ -1,5 +1,6 @@
 let playerText = document.getElementById("playerText");
 let restartBtn = document.getElementById("restartBtn");
+let modeSelect = document.getElementById("modeSelect"); // Dropdown for selecting mode
 let boxes = Array.from(document.getElementsByClassName("box"));
 
 let winnerIndicator = getComputedStyle(document.body).getPropertyValue(
@@ -10,9 +11,11 @@ const O_TEXT = "O";
 const X_TEXT = "X";
 let currentPlayer = X_TEXT;
 let spaces = Array(9).fill(null);
+let isComputerOpponent = true; // Default mode is against the computer
 
 const startGame = () => {
   boxes.forEach((box) => box.addEventListener("click", boxClicked));
+  modeSelect.addEventListener("change", changeMode); // Listen for mode changes
 };
 
 function boxClicked(e) {
@@ -33,6 +36,36 @@ function boxClicked(e) {
     }
 
     currentPlayer = currentPlayer == X_TEXT ? O_TEXT : X_TEXT;
+
+    if (isComputerOpponent && currentPlayer === O_TEXT) {
+      computerMove();
+    }
+  }
+}
+
+function computerMove() {
+  // Simple AI: Choose the first available space
+  let availableSpaces = spaces
+    .map((space, index) => (space === null ? index : null))
+    .filter((index) => index !== null);
+
+  if (availableSpaces.length > 0) {
+    const randomIndex =
+      availableSpaces[Math.floor(Math.random() * availableSpaces.length)];
+    spaces[randomIndex] = O_TEXT;
+    boxes[randomIndex].innerText = O_TEXT;
+
+    if (playerHasWon() !== false) {
+      playerText.innerHTML = `${O_TEXT} has won!`;
+      let winning_blocks = playerHasWon();
+
+      winning_blocks.map(
+        (box) => (boxes[box].style.backgroundColor = winnerIndicator)
+      );
+      return;
+    }
+
+    currentPlayer = X_TEXT;
   }
 }
 
@@ -56,6 +89,11 @@ function playerHasWon() {
     }
   }
   return false;
+}
+
+function changeMode(e) {
+  isComputerOpponent = e.target.value === "computer";
+  restart(); // Restart the game when the mode changes
 }
 
 restartBtn.addEventListener("click", restart);
