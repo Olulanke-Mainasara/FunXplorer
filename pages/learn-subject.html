@@ -3,9 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Tools - FunXplorer</title>
-    <link rel="stylesheet" href="/styles/shared.css" />
+    <title id="document-title">Learn - FunXplorer</title>
     <link rel="stylesheet" href="/styles/general-styling.css" />
+    <link rel="stylesheet" href="/styles/learn-subject.css" />
+    <script defer src="/scripts/learn-subject.js" type="module"></script>
     <script
       src="https://kit.fontawesome.com/aae4243485.js"
       crossorigin="anonymous"
@@ -14,38 +15,16 @@
   <body>
     <main>
       <div>
-        <h1>Tools</h1>
-        <p class="brand-text">
-          "Give us the tools, and we will finish the job." - Winston Churchill
+        <h1 id="subject-title">Learn</h1>
+        <p id="subject-description" class="brand-text">
+          "An investment in knowledge pays the best interest." - Benjamin
+          Franklin
         </p>
       </div>
 
       <hr />
 
-      <div>
-        <div>
-          <img src="../assets/tools/calculator.jpg" />
-          <div class="subject-box">
-            <h2>Calculator</h2>
-            <p>
-              Perform quick and accurate calculations for your everyday needs.
-            </p>
-            <a href="./calculator.html"
-              >Use <span class="brand-text">&RightArrow;</span></a
-            >
-          </div>
-        </div>
-        <div>
-          <img src="../assets/tools/timer.jpg" />
-          <div class="subject-box">
-            <h2>Timer</h2>
-            <p>Whether you're timing a workout, cooking, or managing tasks.</p>
-            <a href="./timer.html"
-              >Use <span class="brand-text">&RightArrow;</span></a
-            >
-          </div>
-        </div>
-      </div>
+      <div id="learning-points" class="learning-points-container"></div>
     </main>
 
     <div id="navigation-box">

@@ -1,0 +1,104 @@
+main {
+  height: 100dvh;
+  padding: 2rem;
+  padding-bottom: 105px;
+  overflow: scroll;
+}
+
+main > div:first-child {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+main > div:first-child h1 {
+  font-size: 5rem;
+  font-weight: 400;
+}
+
+main > div:first-child p {
+  font-size: 1.1rem;
+  max-width: 400px;
+}
+
+main > hr {
+  margin: 1.5rem 0;
+}
+
+main > div:last-child {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.learning-point {
+  background-color: #ffffff;
+  border: 1px solid #e0e0e0;
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.learning-point:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.learning-point h3 {
+  font-size: 1.8rem;
+  margin-bottom: 0.8rem;
+  color: #333;
+}
+
+.learning-point p {
+  font-size: 1.1rem;
+  color: #555;
+  line-height: 1.6;
+}
+
+@media screen and (max-width: 767px) {
+  main {
+    padding: 1rem;
+    padding-bottom: 105px;
+    overflow-y: scroll;
+  }
+
+  main > div:first-child {
+    flex-direction: column;
+    gap: 10px;
+    padding: 0 1rem;
+  }
+
+  main > div:first-child h1 {
+    font-size: 3rem;
+  }
+
+  main > div:first-child p {
+    text-align: center;
+  }
+
+  main > div:last-child {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 1rem;
+  }
+
+  main > div:last-child > div {
+    height: 200px;
+  }
+
+  .learning-point {
+    padding: 0.8rem;
+  }
+
+  .learning-point h3 {
+    font-size: 1.3rem;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  main > div:last-child {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

@@ -50,7 +50,7 @@ document.addEventListener("DOMContentLoaded", function () {
         optionButton.classList.add("selected");
 
         optionSelected = true;
-        nextBtn.disabled = false; // Enable next button
+        nextBtn.disabled = false;
 
         if (i === currentQuestion.answerIndex) {
           score++;
@@ -61,7 +61,7 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 
     optionSelected = false;
-    nextBtn.disabled = true; // Disable next button until an option is selected
+    nextBtn.disabled = true;
   }
 
   function displayPrevBtn() {
