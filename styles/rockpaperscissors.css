@@ -1,0 +1,44 @@
+main {
+  height: 100dvh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: #f7931e;
+}
+
+.choice-btn {
+  background-color: #f7931e;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 1rem 2rem;
+  font-size: 1.2rem;
+  margin: 0.5rem;
+  cursor: pointer;
+  transition: transform 0.2s, background-color 0.3s;
+}
+
+.choice-btn:hover {
+  background-color: #fff;
+  color: #f7931e;
+  transform: scale(1.1);
+}
+
+#player-choice,
+#computer-choice {
+  font-size: 1.2rem;
+  margin: 1rem 0;
+}
+
+#result {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-top: 2rem;
+  color: #f7931e;
+}
