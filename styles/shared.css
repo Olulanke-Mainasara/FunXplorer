@@ -69,6 +69,7 @@ main > div:last-child > div > img {
 
 .subject-box > a {
   color: #fff;
+  width: fit-content;
 }
 
 @media screen and (max-width: 767px) {

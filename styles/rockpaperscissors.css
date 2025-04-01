@@ -7,7 +7,12 @@ main {
 }
 
 h1 {
-  font-size: 2.5rem;
+  font-size: 3.5rem;
+  margin-bottom: 1rem;
+}
+
+p {
+  font-size: 1.7rem;
   margin-bottom: 1rem;
   color: #f7931e;
 }
@@ -32,13 +37,36 @@ h1 {
 
 #player-choice,
 #computer-choice {
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   margin: 1rem 0;
 }
 
+#computer-choice {
+  margin-top: 0;
+}
+
 #result {
-  font-size: 1.5rem;
+  font-size: 1.7rem;
   font-weight: bold;
-  margin-top: 2rem;
   color: #f7931e;
+}
+
+@media screen and (max-width: 767px) {
+  h1 {
+    font-size: 1.9rem;
+  }
+
+  p {
+    font-size: 1.3rem;
+  }
+
+  .choice-btn {
+    padding: 1rem 1.5rem;
+    font-size: 1.1rem;
+  }
+
+  #player-choice,
+  #computer-choice {
+    font-size: 1.3rem;
+  }
 }
