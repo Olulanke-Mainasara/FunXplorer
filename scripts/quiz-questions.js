@@ -119,12 +119,6 @@ export const questions = {
       options: ["Ecology", "Genetics", "Biochemistry", "Physiology"],
       answerIndex: 1,
     },
-    {
-      question:
-        "Which organ is responsible for filtering blood in the human body?",
-      options: ["Liver", "Kidney", "Heart", "Lungs"],
-      answerIndex: 1,
-    },
   ],
 
   Physics: [
@@ -394,6 +388,140 @@ export const questions = {
         "To expand global trade",
         "To form a world government",
         "To eliminate monarchy",
+      ],
+      answerIndex: 0,
+    },
+    {
+      question: "Who wrote the Declaration of Independence?",
+      options: [
+        "George Washington",
+        "Thomas Jefferson",
+        "Benjamin Franklin",
+        "John Adams",
+      ],
+      answerIndex: 1,
+    },
+    {
+      question: "What year did the American Civil War begin?",
+      options: ["1860", "1861", "1865", "1870"],
+      answerIndex: 1,
+    },
+    {
+      question: "Who was known as the 'Iron Lady'?",
+      options: [
+        "Margaret Thatcher",
+        "Angela Merkel",
+        "Indira Gandhi",
+        "Queen Elizabeth II",
+      ],
+      answerIndex: 0,
+    },
+    {
+      question: "What empire was ruled by Julius Caesar?",
+      options: [
+        "Greek Empire",
+        "Roman Empire",
+        "Ottoman Empire",
+        "Persian Empire",
+      ],
+      answerIndex: 1,
+    },
+    {
+      question:
+        "What was the name of the ship that carried the Pilgrims to America?",
+      options: ["Santa Maria", "Mayflower", "Endeavour", "Beagle"],
+      answerIndex: 1,
+    },
+    {
+      question: "Who was the first man to step on the moon?",
+      options: [
+        "Buzz Aldrin",
+        "Neil Armstrong",
+        "Yuri Gagarin",
+        "Michael Collins",
+      ],
+      answerIndex: 1,
+    },
+    {
+      question: "What year did the Berlin Wall fall?",
+      options: ["1987", "1988", "1989", "1990"],
+      answerIndex: 2,
+    },
+    {
+      question: "Who was the leader of the Soviet Union during World War II?",
+      options: [
+        "Vladimir Lenin",
+        "Joseph Stalin",
+        "Nikita Khrushchev",
+        "Leonid Brezhnev",
+      ],
+      answerIndex: 1,
+    },
+    {
+      question:
+        "What was the name of the first successful English colony in America?",
+      options: ["Plymouth", "Roanoke", "Jamestown", "Salem"],
+      answerIndex: 2,
+    },
+    {
+      question: "Who was the first female Prime Minister of India?",
+      options: [
+        "Indira Gandhi",
+        "Sonia Gandhi",
+        "Pratibha Patil",
+        "Sarojini Naidu",
+      ],
+      answerIndex: 0,
+    },
+    {
+      question: "What year did the Titanic sink?",
+      options: ["1910", "1912", "1914", "1916"],
+      answerIndex: 1,
+    },
+    {
+      question: "Who was the first emperor of China?",
+      options: ["Kublai Khan", "Qin Shi Huang", "Sun Yat-sen", "Mao Zedong"],
+      answerIndex: 1,
+    },
+    {
+      question: "What was the name of the treaty that ended World War I?",
+      options: [
+        "Treaty of Versailles",
+        "Treaty of Paris",
+        "Treaty of Ghent",
+        "Treaty of Tordesillas",
+      ],
+      answerIndex: 0,
+    },
+    {
+      question:
+        "Who was the first African American President of the United States?",
+      options: [
+        "Barack Obama",
+        "Martin Luther King Jr.",
+        "Frederick Douglass",
+        "Colin Powell",
+      ],
+      answerIndex: 0,
+    },
+    {
+      question: "What ancient civilization built the pyramids?",
+      options: ["Romans", "Greeks", "Egyptians", "Mayans"],
+      answerIndex: 2,
+    },
+    {
+      question:
+        "What year did Christopher Columbus first arrive in the Americas?",
+      options: ["1490", "1492", "1495", "1500"],
+      answerIndex: 1,
+    },
+    {
+      question: "Who was the first woman to win a Nobel Prize?",
+      options: [
+        "Marie Curie",
+        "Rosalind Franklin",
+        "Ada Lovelace",
+        "Florence Nightingale",
       ],
       answerIndex: 0,
     },
