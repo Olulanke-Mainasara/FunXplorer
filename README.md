@@ -1,6 +1,6 @@
 # FunXplorer
 
-FunXplorer is an interactive platform that combines learning, entertainment, and practical tools in one place. Whether you're looking to expand your knowledge, play fun games, or use helpful tools, FunXplorer has something for everyone. This project is designed to be responsive, user-friendly, and engaging for users of all ages.
+FunXplorer is an interactive platform that combines learning, entertainment, and practical tools in one place. Whether you're looking to expand your knowledge, test your knowledge, play fun games, or use helpful tools, FunXplorer has something for everyone. This project is designed to be responsive, user-friendly, and engaging for users of all ages.
 
 ---
 
@@ -20,19 +20,19 @@ FunXplorer is an interactive platform that combines learning, entertainment, and
 
 ### Learning
 
-![Learning Feature](Images/home/learn.png)
+<img src="Images/home/learn.png" alt="Learning Feature" width="500" height="300">
 
 - **Interactive Lessons**: Explore various subjects with detailed descriptions and learning points.
 
 ### Quizzes
 
-![Quiz Feature](Images/home/quiz.jpeg)
+<img src="Images/home/quiz.jpeg" alt="Quiz Feature" width="500" height="300">
 
 - **Quizzes**: Test your knowledge with exciting quizzes and track your progress.
 
 ### Games
 
-![Games Feature](Images/home/fun.jpg)
+<img src="Images/home/fun.jpg" alt="Games Feature" width="500" height="300">
 
 - **Tic Tac Toe**: Play the classic game of strategy and fun.
 - **Number Guess**: Challenge yourself to guess the correct number.
@@ -40,7 +40,7 @@ FunXplorer is an interactive platform that combines learning, entertainment, and
 
 ### Tools
 
-![Tools Feature](Images/home/tools.jpg)
+<img src="Images/home/tools.jpg" alt="Tools Feature" width="500" height="300">
 
 - **Calculator**: Perform quick and accurate calculations.
 - **Timer**: Set timers for productivity or relaxation.
