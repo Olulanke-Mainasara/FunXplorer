@@ -74,6 +74,7 @@ main > div > a:hover:last-child {
 @media screen and (max-width: 1024px) {
   main {
     flex-direction: column;
+    min-height: 100dvh;
   }
 
   main > div {

@@ -47,12 +47,17 @@ button {
   width: 40px;
   height: 40px;
   background-color: #f7931e;
-  color: #fff;
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
   font-size: 20px;
+}
+
+#logo svg {
+  width: 20px;
+  height: 20px;
+  fill: #fff;
 }
 
 #navigation-box {
@@ -88,11 +93,22 @@ nav > a:hover {
   color: #f7931e;
 }
 
+nav > a > svg {
+  width: 20px;
+  height: 20px;
+  fill: #fff;
+}
+
 nav > a:last-child {
   border-right: none;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
+  nav {
+    width: 90%;
+    justify-content: space-evenly;
+  }
+
   nav > a > span {
     display: none;
   }
