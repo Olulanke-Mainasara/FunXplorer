@@ -1,8 +1,9 @@
+// Import the subjects data from the learning-points module
 import { subjects } from "./learning-points.js";
 
 document.addEventListener("DOMContentLoaded", function () {
   const urlParams = new URLSearchParams(window.location.search);
-  const subject = urlParams.get("subject");
+  const subject = urlParams.get("subject"); // Extract the 'subject' parameter
 
   const documentTitle = document.getElementById("document-title");
   if (documentTitle) {
@@ -25,13 +26,16 @@ document.addEventListener("DOMContentLoaded", function () {
         selectedSubject.description || "Learn more about this subject.";
     }
 
+    // Populate the learning points for the selected subject
     if (learningPointsContainer) {
       selectedSubject.notes.forEach((note, index) => {
         const pointElement = document.createElement("div");
         pointElement.classList.add("learning-point");
         pointElement.innerHTML = `
-          <h3>${getDynamicTitle(index)}</h3>
-          <p>${note}</p>
+          <h3>${getDynamicTitle(
+            index
+          )}</h3> <!-- Dynamic title for each point -->
+          <p>${note}</p> <!-- The learning point content -->
         `;
         learningPointsContainer.appendChild(pointElement);
       });
@@ -42,7 +46,7 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   }
 
-  // Helper function to generate dynamic titles
+  // Helper function to generate dynamic titles for learning points
   function getDynamicTitle(index) {
     const titles = [
       "Did You Know?",

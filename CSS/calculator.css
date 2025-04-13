@@ -129,6 +129,8 @@ h1 {
   grid-column: 2/4;
 }
 
+/*-------------For phones and small mobile devices section--------------*/
+
 @media screen and (max-width: 768px) {
   main > div {
     justify-content: center;

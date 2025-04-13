@@ -6,21 +6,56 @@
     <title>Get started - FunXplorer</title>
     <link rel="stylesheet" href="/CSS/onboarding.css" />
     <link rel="stylesheet" href="/CSS/general-styling.css" />
+    <script defer src="/JavaScript/landing.js"></script>
   </head>
   <body>
+    <!---Navigation Bar-->
+    <nav id="nav">
+      <div id="logo">
+        <img src="/Images/navigation/logo.svg" />
+      </div>
+
+      <ul id="sidemenu">
+        <li>
+          <a href="/HTML/dashboard.html"><span>─</span> Dashboard</a>
+        </li>
+        <li>
+          <a href="/HTML/learn.html"><span>─</span> Learn</a>
+        </li>
+        <li>
+          <a href="/HTML/quiz.html"><span>─</span> Quiz</a>
+        </li>
+        <li>
+          <a href="/HTML/games.html"><span>─</span> Games</a>
+        </li>
+        <li>
+          <a href="/HTML/tools.html"><span>─</span> Tools</a>
+        </li>
+        <button id="closemm" onclick="closemenu()">
+          <img src="/Images/navigation/x.svg" />
+        </button>
+      </ul>
+
+      <button id="openmm" onclick="openmenu()">
+        <img src="/Images/navigation/menu.svg" />
+      </button>
+    </nav>
+
+    <div id="sheet"></div>
+
     <main>
       <div>
         <img src="/Images/onboarding-image.png" />
       </div>
       <div>
-        <a href="/index.html"><span>&LeftArrow;</span> Landing page</a>
+        <a href="/HTML/index.html"><span>&LeftArrow;</span> Landing page</a>
         <h1>Fun<span class="brand-text">X</span>plorer</h1>
         <p>
           FunXplorer is your all-in-one hub for learning, entertainment, and
           smart tools. Challenge your mind, stay updated, and have fun—all in
           one sleek experience. Ready to explore? Let’s go!
         </p>
-        <a href="home.html">Get started &RightArrow;</a>
+        <a href="dashboard.html">Get started &RightArrow;</a>
       </div>
     </main>
   </body>

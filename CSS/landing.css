@@ -1,122 +1,8 @@
-html {
-  scroll-behavior: smooth;
-}
-
 body {
   position: relative;
 }
 
-#nav {
-  position: fixed;
-  width: 100%;
-  max-width: 1920px;
-  z-index: 2;
-  top: 0;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 20px;
-  border: none;
-  border-radius: 0;
-  background-color: #294356;
-}
-
-#nav > button {
-  background: none;
-  border: none;
-  cursor: pointer;
-}
-
-#nav > button > svg {
-  width: 25px;
-  height: 25px;
-  fill: #fff;
-}
-
-#nav > ul {
-  display: flex;
-  gap: 3rem;
-}
-
-#nav > ul > li > a {
-  text-decoration: none;
-  color: #fff;
-  position: relative;
-}
-
-#nav > ul > li > a > span {
-  color: #f7931e;
-  display: none;
-}
-
-#openmm,
-#closemm {
-  display: none;
-}
-
-#closemm > svg {
-  width: 30px;
-  height: 30px;
-  fill: #fff;
-}
-
-#nav-contact-desktop {
-  width: 40px;
-  height: 40px;
-  background-color: #f7931e;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 20px;
-  gap: 0;
-  padding: 0;
-  transition: all 0.2s ease-in-out;
-}
-
-#nav-contact-desktop:hover {
-  background: #fff;
-  color: #000;
-}
-
-#nav-contact-mobile {
-  display: none;
-}
-
-#nav-contact-desktop > svg,
-#nav-contact-mobile > svg {
-  width: 20px;
-  height: 20px;
-  fill: #fff;
-}
-
-#nav-contact-desktop:hover > svg,
-#nav-contact-mobile:hover > svg {
-  fill: #000;
-}
-
-nav > ul > li > a::after {
-  content: "";
-  width: 0;
-  height: 3px;
-  background: #f7931e;
-  position: absolute;
-  left: 0;
-  bottom: -6px;
-  transition: 0.5s;
-}
-
-nav > ul > li > a:hover::after {
-  width: 100%;
-}
-
-#sheet {
-  display: none;
-  position: absolute;
-  inset: 0;
-  backdrop-filter: brightness(40%);
-  -webkit-backdrop-filter: brightness(40%);
-}
+/*--------------Hero section-------------*/
 
 #hero {
   min-height: 100dvh;
@@ -182,6 +68,8 @@ nav > ul > li > a:hover::after {
   color: #000;
 }
 
+/*-------------About us section--------------*/
+
 #about-us {
   min-height: 100dvh;
   display: flex;
@@ -216,6 +104,8 @@ nav > ul > li > a:hover::after {
   font-size: 1.2rem;
   max-width: 560px;
 }
+
+/*------------Features section---------------*/
 
 #feature-section {
   min-height: 100dvh;
@@ -305,8 +195,7 @@ nav > ul > li > a:hover::after {
   gap: 1rem;
 }
 
-.feature > div > div > h2 > svg {
-  fill: #f7931e;
+.feature > div > div > h2 > img {
   width: 70px;
   height: 70px;
 }
@@ -324,6 +213,8 @@ nav > ul > li > a:hover::after {
 .feature > div > div > a > span {
   color: #f7931e;
 }
+
+/*-------------FAQ section--------------*/
 
 #faq {
   min-height: 100dvh;
@@ -372,6 +263,8 @@ nav > ul > li > a:hover::after {
   color: #fff;
 }
 
+/*-----------Testimonials section------------*/
+
 #testimonials {
   min-height: 100dvh;
   display: flex;
@@ -413,6 +306,8 @@ nav > ul > li > a:hover::after {
 .testimonial > span {
   color: #f7931e;
 }
+
+/*---------------Contact us section----------------*/
 
 #contact {
   width: 100%;
@@ -482,22 +377,17 @@ form > button {
   border: 1px solid #f7931e;
 }
 
-form > button > svg {
+form > button > img {
   width: 20px;
   height: 20px;
-  fill: #fff;
   transition: all 0.2s ease-in-out;
 }
 
 form > button:hover {
-  background-color: #fff;
-  color: #000;
-  border: 1px solid #000;
+  background-color: rgba(201, 116, 20);
 }
 
-form > button:hover svg {
-  fill: #000;
-}
+/*-----------------Footer section------------------*/
 
 footer {
   min-height: 100dvh;
@@ -563,6 +453,8 @@ footer > p {
   text-align: center;
 }
 
+/*-------------For ipads and tablets section-------------*/
+
 @media screen and (max-width: 1024px) {
   #openmm,
   #closemm {
@@ -611,7 +503,7 @@ footer > p {
     display: block;
   }
 
-  nav > ul > svg nav ul li a:hover::after {
+  nav ul li a:hover::after {
     width: 0;
   }
 
@@ -688,8 +580,7 @@ footer > p {
     font-size: 1rem;
   }
 
-  .feature > div > div > h2 > svg {
-    fill: #f7931e;
+  .feature > div > div > h2 > img {
     width: 50px;
     height: 50px;
   }
@@ -762,6 +653,8 @@ footer > p {
     text-align: center;
   }
 }
+
+/*-------------For phones and small mobile devices section--------------*/
 
 @media screen and (max-width: 767px) {
   #hero-text > div {

@@ -8,6 +8,10 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "Poppins", sans-serif;
   background: linear-gradient(135deg, #294356 45%, #f7931e);
@@ -47,6 +51,8 @@ button {
   cursor: pointer;
 }
 
+/*---------------Logo-----------------*/
+
 #logo {
   width: 40px;
   height: 40px;
@@ -58,11 +64,119 @@ button {
   font-size: 20px;
 }
 
-#logo svg {
+#logo img {
   width: 20px;
   height: 20px;
+}
+
+/*---------------Main Navigation-----------------*/
+
+#nav {
+  position: fixed;
+  width: 100%;
+  max-width: 1920px;
+  z-index: 2;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  border: none;
+  border-radius: 0;
+  background-color: #294356;
+}
+
+#nav > button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+#nav > button > img {
+  width: 25px;
+  height: 25px;
   fill: #fff;
 }
+
+#nav > ul {
+  display: flex;
+  gap: 3rem;
+}
+
+#nav > ul > li > a {
+  text-decoration: none;
+  color: #fff;
+  position: relative;
+}
+
+#nav > ul > li > a > span {
+  color: #f7931e;
+  display: none;
+}
+
+#openmm,
+#closemm {
+  display: none;
+}
+
+#closemm > img {
+  width: 30px;
+  height: 30px;
+}
+
+#nav-contact-desktop {
+  width: 40px;
+  height: 40px;
+  background-color: #f7931e;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  gap: 0;
+  padding: 0;
+  transition: all 0.2s ease-in-out;
+}
+
+#nav-contact-desktop:hover {
+  background-color: rgba(201, 116, 20);
+}
+
+#nav-contact-mobile {
+  display: none;
+}
+
+#nav-contact-desktop > img,
+#nav-contact-mobile > img {
+  width: 20px;
+  height: 20px;
+}
+
+nav > ul > li > a::after {
+  content: "";
+  width: 0;
+  height: 3px;
+  background: #f7931e;
+  position: absolute;
+  left: 0;
+  bottom: -6px;
+  transition: 0.5s;
+}
+
+#nav > ul > li > a:hover::after {
+  width: 100%;
+}
+
+#sheet {
+  display: none;
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  backdrop-filter: brightness(40%);
+  -webkit-backdrop-filter: brightness(40%);
+}
+
+/*----------------Dock Navigation-----------------*/
 
 #navigation-box {
   position: absolute;
@@ -97,15 +211,97 @@ nav > a:hover {
   color: #f7931e;
 }
 
-nav > a > svg {
+nav > a > img {
   width: 20px;
   height: 20px;
-  fill: #fff;
 }
 
 nav > a:last-child {
   border-right: none;
 }
+
+/*---------------For ipads and tablets section-----------------*/
+
+@media screen and (max-width: 1024px) {
+  #openmm,
+  #closemm {
+    display: block;
+  }
+
+  #closemm {
+    position: absolute;
+    top: 40px;
+    left: 48%;
+    background: none;
+    border: none;
+  }
+
+  #nav {
+    padding: 0.6rem;
+  }
+
+  nav > ul {
+    position: fixed;
+    top: 0;
+    right: -280px;
+    width: 280px;
+    height: 100vh;
+    display: flex;
+    gap: 2rem;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 20px;
+    background: #294356;
+    z-index: 2;
+    transition: right 0.5s;
+  }
+
+  nav > ul > li {
+    font-size: 25px;
+  }
+
+  #nav > ul > li > a {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  #nav > ul > li > a > span {
+    display: block;
+  }
+
+  nav ul li a:hover::after {
+    width: 0;
+  }
+
+  #nav-contact-desktop {
+    display: none;
+  }
+
+  #nav-contact-mobile {
+    position: fixed;
+    bottom: 30px;
+    right: 20px;
+    width: 40px;
+    height: 40px;
+    background-color: #f7931e;
+    color: #fff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    gap: 0;
+    padding: 0;
+    z-index: 30;
+  }
+
+  #nav-contact-mobile:hover {
+    background-color: rgba(201, 116, 20);
+  }
+}
+
+/*-------------For phones and small mobile devices section--------------*/
 
 @media screen and (max-width: 767px) {
   nav {

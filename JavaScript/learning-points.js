@@ -1,3 +1,4 @@
+// Learning points for all available subjects
 export const subjects = [
   {
     subject: "Maths",

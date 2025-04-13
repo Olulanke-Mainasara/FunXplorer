@@ -60,6 +60,8 @@ main > div > a:hover:last-child {
   color: #000;
 }
 
+/*-------------For phones and small mobile devices section--------------*/
+
 @media screen and (max-width: 768px) {
   main > div > h1 {
     font-size: 4rem;
@@ -70,6 +72,8 @@ main > div > a:hover:last-child {
     padding: 0.5rem 0;
   }
 }
+
+/*-------------For ipads and tablets section--------------*/
 
 @media screen and (max-width: 1024px) {
   main {

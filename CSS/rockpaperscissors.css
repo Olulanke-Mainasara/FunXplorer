@@ -51,6 +51,8 @@ p {
   color: #f7931e;
 }
 
+/*-------------For phones and small mobile devices section--------------*/
+
 @media screen and (max-width: 767px) {
   h1 {
     font-size: 1.9rem;

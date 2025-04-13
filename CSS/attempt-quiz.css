@@ -140,6 +140,8 @@ button:hover {
   width: fit-content;
 }
 
+/*-------------For ipads and tablets section--------------*/
+
 @media screen and (min-width: 1025px) {
   #quiz-container {
     gap: 50px;

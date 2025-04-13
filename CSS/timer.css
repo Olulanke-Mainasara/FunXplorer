@@ -64,6 +64,8 @@ input#timer-duration::placeholder {
   color: rgba(255, 255, 255, 0.7);
 }
 
+/*-------------For phones and small mobile devices section--------------*/
+
 @media screen and (max-width: 767px) {
   .timer-display {
     font-size: 9rem;

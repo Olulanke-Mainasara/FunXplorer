@@ -60,15 +60,17 @@ FunXplorer/
 ├── Images/          # Images and other static assets
 │   ├── onboarding-image.png
 │   ├── games/
-│   ├── home/
+│   ├── dashboard/
 │   ├── landing/
 │   ├── subjects/
+|   ├──navigation/
 │   └── tools/
 ├── HTML/           # HTML files for different pages
 │   ├── attempt-quiz.html
 │   ├── calculator.html
 │   ├── games.html
-│   ├── home.html
+│   ├── dashboard.html
+|   ├── index.html       # Landing page
 │   ├── learn-subject.html
 │   ├── learn.html
 │   ├── numberguess.html
@@ -77,6 +79,7 @@ FunXplorer/
 ├── JavaScript/         # JavaScript files for interactivity
 │   ├── attempt-quiz.js
 │   ├── calculator.js
+|   ├── landing.js
 │   ├── learn-subject.js
 │   ├── learning-points.js
 │   ├── numberguess.js
@@ -87,13 +90,12 @@ FunXplorer/
 │   ├── attempt-quiz.css
 │   ├── calculator.css
 │   ├── general-styling.css
-│   ├── home.css
+│   ├── dashboard.css
 │   ├── landing.css
 │   ├── learn-subject.css
 │   ├── numberguess.css
 │   ├── onboarding.css
 │   └── ...
-├── index.html       # Landing page
 └── README.md        # Project documentation
 ```
 
@@ -115,8 +117,9 @@ To run this project locally, follow these steps:
    cd FunXplorer
    ```
 
-3. Open the `index.html` file in your browser to explore the platform:
+3. Navigate to the HTML folder and open the `index.html` file in your browser to explore the platform:
    ```bash
+   cd HTML
    open index.html
    ```
 

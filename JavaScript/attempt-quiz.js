@@ -24,6 +24,7 @@ document.addEventListener("DOMContentLoaded", function () {
   let currentQuestionIndex = 0;
   let optionSelected = false;
 
+  // Function to display the current question and its options
   function displayQuestion(index) {
     const questionText = document.getElementById("question-text");
     const optionsContainer = document.getElementById("options-container");
@@ -38,6 +39,7 @@ document.addEventListener("DOMContentLoaded", function () {
       selectedQuestions.length
     }`;
 
+    // Create buttons for each option and handle selection
     currentQuestion.options.forEach((option, i) => {
       const optionButton = document.createElement("button");
       optionButton.classList.add("option-btn");
@@ -52,6 +54,7 @@ document.addEventListener("DOMContentLoaded", function () {
         optionSelected = true;
         nextBtn.disabled = false;
 
+        // Increment score if the selected option is correct
         if (i === currentQuestion.answerIndex) {
           score++;
         }
@@ -64,6 +67,7 @@ document.addEventListener("DOMContentLoaded", function () {
     nextBtn.disabled = true;
   }
 
+  // Function to display or hide the "Previous" button based on the current question index
   function displayPrevBtn() {
     if (currentQuestionIndex === 0) {
       prevBtn.style.display = "none";
@@ -74,6 +78,7 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   }
 
+  // Function to display the final score and allow the user to retake the quiz
   function displayScore() {
     const noOfQuestions = selectedQuestions.length;
     const percentage = (score / noOfQuestions) * 100;
@@ -90,11 +95,13 @@ document.addEventListener("DOMContentLoaded", function () {
     quizContainer.classList.add("score");
     quizContainer.style.flexDirection = "column";
 
+    // Reload the page when the "Retake Quiz" button is clicked
     document.getElementById("retake-quiz").addEventListener("click", () => {
       window.location.reload();
     });
   }
 
+  // Event listener for the "Previous" button to navigate to the previous question
   prevBtn.addEventListener("click", function () {
     if (currentQuestionIndex > 0) {
       currentQuestionIndex--;
@@ -104,6 +111,7 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   });
 
+  // Event listener for the "Next" button to navigate to the next question or finish the quiz
   nextBtn.addEventListener("click", function () {
     if (!optionSelected) return;
 
@@ -112,14 +120,16 @@ document.addEventListener("DOMContentLoaded", function () {
       displayQuestion(currentQuestionIndex);
       displayPrevBtn();
 
+      // Change the "Next" button text to "Finish" on the last question
       if (currentQuestionIndex === selectedQuestions.length - 1) {
         nextBtn.innerText = "Finish";
       }
     } else {
-      displayScore();
+      displayScore(); // Show the final score when the quiz is finished
     }
   });
 
+  // Initialize the quiz by displaying the first question or showing a message if no questions are available
   if (selectedQuestions.length > 0) {
     displayQuestion(currentQuestionIndex);
     displayPrevBtn();

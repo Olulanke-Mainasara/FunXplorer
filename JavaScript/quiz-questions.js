@@ -1,3 +1,4 @@
+// Quiz questions for all available subjects
 export const questions = {
   Biology: [
     {

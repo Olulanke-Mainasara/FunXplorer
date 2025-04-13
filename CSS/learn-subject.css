@@ -58,6 +58,8 @@ main > div:last-child {
   line-height: 1.6;
 }
 
+/*-------------For phones and small mobile devices section--------------*/
+
 @media screen and (max-width: 767px) {
   main {
     padding: 1rem;
@@ -96,6 +98,8 @@ main > div:last-child {
     font-size: 1.3rem;
   }
 }
+
+/*-------------For ipads and tablets section--------------*/
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   main > div:last-child {

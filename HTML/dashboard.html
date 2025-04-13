@@ -3,27 +3,57 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Home - FunXplorer</title>
-    <link rel="stylesheet" href="/CSS/home.css" />
+    <title>Dashboard - FunXplorer</title>
+    <link rel="stylesheet" href="/CSS/dashboard.css" />
     <link rel="stylesheet" href="/CSS/general-styling.css" />
+    <script defer src="/JavaScript/landing.js"></script>
   </head>
   <body>
+    <!---Navigation Bar-->
+    <nav id="nav">
+      <div id="logo" style="scale: 1">
+        <img src="/Images/navigation/logo.svg" />
+      </div>
+
+      <ul id="sidemenu">
+        <li>
+          <a href="/HTML/dashboard.html"><span>─</span> Dashboard</a>
+        </li>
+        <li>
+          <a href="/HTML/learn.html"><span>─</span> Learn</a>
+        </li>
+        <li>
+          <a href="/HTML/quiz.html"><span>─</span> Quiz</a>
+        </li>
+        <li>
+          <a href="/HTML/games.html"><span>─</span> Games</a>
+        </li>
+        <li>
+          <a href="/HTML/tools.html"><span>─</span> Tools</a>
+        </li>
+        <button id="closemm" onclick="closemenu()">
+          <img src="/Images/navigation/x.svg" />
+        </button>
+      </ul>
+
+      <button id="openmm" onclick="openmenu()">
+        <img src="/Images/navigation/menu.svg" />
+      </button>
+    </nav>
+
+    <div id="sheet"></div>
+
     <main>
-      <a href="/index.html"><span>&LeftArrow;</span>Landing page</a>
-      <a href="/index.html">
+      <a href="/HTML/index.html"><span>&LeftArrow;</span>Landing page</a>
+      <a href="/HTML/index.html">
         <div id="logo">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-            <!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
-            <path
-              d="M128 32l32 0c17.7 0 32 14.3 32 32l0 32L96 96l0-32c0-17.7 14.3-32 32-32zm64 96l0 320c0 17.7-14.3 32-32 32L32 480c-17.7 0-32-14.3-32-32l0-59.1c0-34.6 9.4-68.6 27.2-98.3C40.9 267.8 49.7 242.4 53 216L60.5 156c2-16 15.6-28 31.8-28l99.8 0zm227.8 0c16.1 0 29.8 12 31.8 28L459 216c3.3 26.4 12.1 51.8 25.8 74.6c17.8 29.7 27.2 63.7 27.2 98.3l0 59.1c0 17.7-14.3 32-32 32l-128 0c-17.7 0-32-14.3-32-32l0-320 99.8 0zM320 64c0-17.7 14.3-32 32-32l32 0c17.7 0 32 14.3 32 32l0 32-96 0 0-32zm-32 64l0 160-64 0 0-160 64 0z"
-            />
-          </svg>
+          <img src="/Images/navigation/logo.svg" />
         </div>
         <h1>Fun<span class="brand-text">X</span>plorer</h1>
       </a>
       <div>
         <div id="left-child">
-          <img src="../Images/home/home.jpg" />
+          <img src="../Images/dashboard/home.jpg" />
           <div>
             <h2>What&apos;s on your mind<span class="brand-text">?</span></h2>
             <p>
@@ -34,9 +64,11 @@
             </p>
           </div>
         </div>
+
+        <!----------Features------------------------------------------------->
         <div id="right-child">
           <div>
-            <img src="../Images/home/learn.png" />
+            <img src="../Images/dashboard/learn.png" />
             <div class="feature-box">
               <h2>Learn</h2>
               <p>
@@ -50,7 +82,7 @@
           </div>
 
           <div>
-            <img src="../Images/home/quiz.jpeg" />
+            <img src="../Images/dashboard/quiz.jpeg" />
             <div class="feature-box">
               <h2>Quiz</h2>
               <p>
@@ -63,7 +95,7 @@
           </div>
 
           <div>
-            <img src="../Images/home/fun.jpg" />
+            <img src="../Images/dashboard/fun.jpg" />
             <div class="feature-box">
               <h2>Games</h2>
               <p>
@@ -77,7 +109,7 @@
           </div>
 
           <div>
-            <img src="../Images/home/tools.jpg" />
+            <img src="../Images/dashboard/tools.jpg" />
             <div class="feature-box">
               <h2>Tools</h2>
               <p>
