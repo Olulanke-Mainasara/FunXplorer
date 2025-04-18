@@ -70,7 +70,6 @@ FunXplorer/
 │   ├── calculator.html
 │   ├── games.html
 │   ├── dashboard.html
-|   ├── index.html       # Landing page
 │   ├── learn-subject.html
 │   ├── learn.html
 │   ├── numberguess.html
@@ -96,6 +95,7 @@ FunXplorer/
 │   ├── numberguess.css
 │   ├── onboarding.css
 │   └── ...
+├── index.html        # Landing page
 └── README.md        # Project documentation
 ```
 
